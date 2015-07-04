@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#logo{
+    max-height: 300px;
+    max-width: 300px;
+    width: 100%;
+}
+footer{
+    font-size: small;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    padding: 5px 30px;
+}
