@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script type="text/javascript" src="javascript/scripts.js"></script>
+</head>
+<body>
+	<h1>Juego de ahorcados</h1>
+	<div id="escoger-nivel">
+		<p>Favor de escoger un nivel...</p>
+		<button onclick="asignarPalabra('facil')">Fácil</button>
+		<button onclick="asignarPalabra('medio')">Medio</button>
+		<button onclick="asignarPalabra('dificil')">Dificil</button>
+	</div>
+	<div id="palabraElegida">
+		
+	</div>
+	<div id="panel">
+		<div id="victima">
+			
+		</div>
+		<div id="panelPalabras">
+			<h3>Letras Utilizads</h3>
+			<p></p>
+			<form>
+				<input type="text" id="letraPropuesta">
+				<button onclick="probarLetra()">Enviar</button>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
