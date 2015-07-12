@@ -25,7 +25,7 @@ function escoger(eleccion) {
             usuario = 2;
             break;
     };
-    var resultado = (usuario - compu) % 3;
+    var resultado = (usuario - compu +3) % 3;
     switch (resultado) {
         case 0:
             resultado = "empate";
@@ -33,13 +33,7 @@ function escoger(eleccion) {
         case 1:
             resultado = "ganador";
             break;
-        case -2:
-            resultado = "ganador";
-            break;
         case 2:
-            resultado = "perdedor";
-            break;
-        case -1:
             resultado = "perdedor";
             break;
     };

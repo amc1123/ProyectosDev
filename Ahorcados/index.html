@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<script type="text/javascript" src="javascript/scripts.js"></script>
 </head>
 <body>
 	<h1>Juego de ahorcados</h1>
@@ -14,22 +13,24 @@
 		<button onclick="asignarPalabra('medio')">Medio</button>
 		<button onclick="asignarPalabra('dificil')">Dificil</button>
 	</div>
+
 	<div id="palabraElegida">
-		
+		<h3 id="laPalabra"></h3>
 	</div>
+
 	<div id="panel">
 		<div id="victima">
-			
+			<img src="images/0.png" id="ahorcado">
 		</div>
 		<div id="panelPalabras">
 			<h3>Letras Utilizads</h3>
-			<p></p>
+			<p id="letrasUtilizadas">... ninguna hasta ahora ...</p>
 			<form>
-				<input type="text" id="letraPropuesta">
-				<button onclick="probarLetra()">Enviar</button>
+				<input type="text" id="input">
+				<button type="button" onclick="probarLetra()">Enviar</button>
 			</form>
 		</div>
 	</div>
-	
+<script type="text/javascript" src="javascript/scripts.js"></script>
 </body>
 </html>

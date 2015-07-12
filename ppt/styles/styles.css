@@ -1,8 +1,11 @@
 img{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
 }
 #r {
     color: red;
     font-size: 500%;
+}
+img:hover{
+    background-color: gray;
 }
